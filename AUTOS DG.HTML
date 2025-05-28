@@ -1,0 +1,245 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Concesionario de Autos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background-color: #000000;
+      padding: 1em;
+      text-align: center;
+    }
+    nav button {
+      background-color: #555555;
+      color: rgba(255, 255, 255, 0.527);
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      cursor: pointer;
+    }
+    nav button:hover {
+      background-color: #2b282836;
+    }
+    section {
+      display: none;
+      padding: 20px;
+    }
+    section.active {
+      display: block;
+    }
+    .car {
+      margin-bottom: 20px;
+    }
+    .car img {
+      max-width: 100%;
+      height: auto;
+    }
+    .car-info {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <button onclick="showSection('AUTOS DG')">AUTOS DG</button>
+  <button onclick="showSection('deportivos')">Carros Deportivos</button>
+  <button onclick="showSection('clasicos')">Carros Clásicos</button>
+  <button onclick="showSection('usados')">Carros Usados</button>
+  <button onclick="showSection('camionetas')">Camionetas Nuevas</button>
+  <button onclick="showSection('REVISTA')">REVISTA</button>
+</nav>
+<!-- AUTOS DG -->
+<section id="AUTOS DG" class="active">
+  <h2>AUTOS DG</h2>
+  <div class="car">
+    <img src="https://www.vw-dealer.jp/images/dealer/238/shop/images_20741.jpg" alt="CONCESIONARIO">
+    <div class="car-info">
+      <h3>COMUNICATE AL TEL 7225889941 </h3>
+      <p>OFRECEMOS</p>
+      <p> CARROS DE ALTA GAMA</p>
+      <p> CARROS CLASICOS </p>
+      <p> CARROS ACHESIBLES </p>
+      <p> CAMIONETAS DE ULTIMO AÑO </p>
+      <p>SOLO EN AUTOS DG</p>
+    </div>
+  </div>
+</section>
+
+<!-- Deportivos -->
+<section id="deportivos" class="active">
+  <h2>Modelos Deportivos</h2>
+  <div class="car">
+    <img src="https://www.hdcarwallpapers.com/walls/2015_ferrari_488_gtb-wide.jpg" alt="Ferrari 488">
+    <div class="car-info">
+      <h3>Ferrari 488</h3>
+      <p>Motor V8 Biturbo,</p>
+        <p> 670 HP, velocidad máxima de 330 km/h.</p>
+        <p>de 0 a 100 en 3.1s </p>
+          <p>  PRECIO 4800,000 MX</p>
+          <P>Clientes exclusivos</P>
+    </div>
+  </div>
+  <div class="car">
+    <img src="https://images.hdqwalls.com/wallpapers/lamborghini-huracan-perfomante-spyder-2018-4k-hj.jpg" alt="Lamborghini Huracan">
+    <div class="car-info">
+      <h3>Lamborghini Huracán</h3>
+      <p>Motor V10,</p>
+      <p> 610 HP, velocidad maxima 310 kh</p>
+      <p> aceleración 0-100 en 3.2s.</p>
+      <p>PRECIO 4500,000 MX </p>
+        <p>Clientes exclusivos </p>
+      </p>
+    </div>
+  </div>
+  <div class="car">
+    <img src="https://th.bing.com/th/id/R.b9c22e8435152c20970d0cd30d9c1b3b?rik=sqv%2f%2b5vEIuBXOg&pid=ImgRaw&r=0" alt="Chevrolet Corvette">
+    <div class="car-info">
+      <h3>Chevrolet Corvette C8</h3>
+      <p>Motor V8 central,</p>
+        <p>  495 HP, diseño aerodinámico de alto rendimiento.</p>
+        <p>   aceleracion de 0 a 100 en 4.1s</p>
+          <p>  PRECIO 3900,000 MX</p>
+            <p>Clientes exclusivos</p>
+    </div>
+  </div>
+  <div class="car">
+    <img src="https://wallpapercave.com/wp/wp3843018.jpg" alt="Porsche 911">
+    <div class="car-info">
+      <h3>Porsche 911 Turbo S</h3>
+      <p>Motor bóxer 6 cilindros,</p>
+        <p>  640 HP, tracción total.</p>
+        <p>de 0 a 100 en  3.2s</p>
+         <p>PRECIO 4300,000</p>
+         <p>Clientes exclusivos</p>
+    </div>
+  </div>
+</section>
+
+<!-- Clásicos -->
+<section id="clasicos">
+  <h2>Modelos Clásicos</h2>
+  <div class="car">
+    <img src="https://www.carandclassic.com/magazine/app/uploads/2022/10/4moUdzEOVHyrb8SyywCB8GhyUsNpCRF2QUW7TAEl-1800x1200.jpg" alt="Ford Mustang 1967">
+    <div class="car-info">
+      <h3>Ford Mustang 1967</h3>
+      <p>V8 de 4.7L, ícono del muscle car americano.</p>
+    </div>
+  </div>
+  <div class="car">
+    <img src="https://th.bing.com/th/id/R.b0b393e0d8c327099666007ee9308e08?rik=%2bZMWXFAr58WVSw&riu=http%3a%2f%2fmomentcar.com%2fimages%2fchevrolet-bel-air-1957-2.jpg&ehk=r2nuiPS0EvWqdc%2fu5YFeOYwhmoHJLyYkOFg5dhAr3Q8%3d&risl=&pid=ImgRaw&r=0" alt="Chevrolet Bel Air">
+    <div class="car-info">
+      <h3>Chevrolet Bel Air 1957</h3>
+      <p>Diseño retro, motor V8 clásico, tapicería original.</p>
+    </div>
+  </div>
+  <div class="car">
+    <img src="https://s1.cdn.autoevolution.com/images/news/all-original-survivor-1965-vw-beetle-had-just-one-owner-and-trips-of-1714-miles-183880_1.jpg" alt="Volkswagen Beetle">
+    <div class="car-info">
+      <h3>Volkswagen Beetle 1965</h3>
+      <p>Motor trasero refrigerado por aire, símbolo de los años 60.</p>
+    </div>
+  </div>
+  <div class="car">
+    <img src="https://th.bing.com/th/id/R.34864ee87aeab8250ce3e3b4f5a17345?rik=%2fj2uUK4T3QfYfQ&pid=ImgRaw&r=0" alt="Jaguar E-Type">
+    <div class="car-info">
+      <h3>Jaguar E-Type 1961</h3>
+      <p>Diseño británico clásico, motor de 6 cilindros en línea.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Usados -->
+<section id="usados">
+  <h2>Modelos Usados</h2>
+  <div class="car">
+    <img src="https://th.bing.com/th/id/R.d689806871db3896a77813034de9e20b?rik=%2fAL5ppr1nSJKmg&pid=ImgRaw&r=0" alt="Toyota Corolla 2018">
+    <div class="car-info">
+      <h3>Toyota Corolla 2018</h3>
+      <p>Kilometraje: 65,000 km, excelente estado, motor 1.8L.</p>
+    </div>
+  </div>
+  <div class="car">
+    <img src="https://th.bing.com/th/id/R.6c7ce396487df6724847abc121a53b5e?rik=VufoO9JI5Gh8zg&riu=http%3a%2f%2fst.automobilemag.com%2fuploads%2fsites%2f11%2f2017%2f05%2f2017-Honda-Civic-SI-front-three-quarter-03-1.jpg&ehk=2B9nypt7DBWLE%2f1iURZdpLpC44Q%2bc4joibuXjA9iTcI%3d&risl=&pid=ImgRaw&r=0" alt="Honda Civic 2017">
+    <div class="car-info">
+      <h3>Honda Civic 2017</h3>
+      <p>Kilometraje: 72,000 km, transmisión automática, motor 2.0L.</p>
+    </div>
+  </div>
+  <div class="car">
+    <img src="https://th.bing.com/th/id/R.358541b7b0f49aa69ee4085ba8989327?rik=tslujerDsasWWw&riu=http%3a%2f%2fimages.thecarconnection.com%2fhug%2f2016-ford-focus_100530025_h.jpg&ehk=ChZtG23kaWOgono5xgRkJCoTkNgjshTk8Pbz4IDRfgQ%3d&risl=&pid=ImgRaw&r=0" alt="Ford Focus 2016">
+    <div class="car-info">
+      <h3>Ford Focus 2016</h3>
+      <p>Kilometraje: 80,000 km, rendimiento eficiente, mantenimiento al día.</p>
+    </div>
+  </div>
+  <div class="car">
+    <img src="https://st.automobilemag.com/uploads/sites/10/2015/09/2015-nissan-altima-grille-view-1.jpg" alt="Nissan Altima 2015">
+    <div class="car-info">
+      <h3>Nissan Altima 2015</h3>
+      <p>Kilometraje: 90,000 km, muy buen estado general, cómodo y confiable.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Camionetas -->
+<section id="camionetas">
+  <h2>Camionetas Nuevas</h2>
+  <div class="car">
+    <img src="https://s1.cdn.autoevolution.com/images/news/2024-ford-f-150-gets-unofficial-refresh-shows-all-colorful-goodies-inside-out-203428_1.jpg" alt="Ford F-150 2024">
+    <div class="car-info">
+      <h3>Ford F-150 2024</h3>
+      <p>Motor V6 EcoBoost, tecnología avanzada, gran capacidad de carga.</p>
+    </div>
+  </div>
+  <div class="car">
+    <img src="https://www.thedrive.com/uploads/2023/04/11/Silverado-HD-ZR2-Hero-1.jpg?auto=webp" alt="Chevrolet Silverado">
+    <div class="car-info">
+      <h3>Chevrolet Silverado 2024</h3>
+      <p>Motor V8, sistema de asistencia al conductor, interior lujoso.</p>
+    </div>
+  </div>
+  <div class="car">
+    <img src="https://media.autoexpress.co.uk/image/private/s--etCmYJlG--/v1562228036/autoexpress/0/81/170215-1-toy_0.jpg" alt="Toyota Hilux 2024">
+    <div class="car-info">
+      <h3>Toyota Hilux 2024</h3>
+      <p>4x4, confiabilidad japonesa, motor diésel eficiente.</p>
+    </div>
+  </div>
+  <div class="car">
+    <img src="https://s1.cdn.autoevolution.com/images/news/2024-ram-1500-ev-unofficially-imagined-with-sleek-design-and-huge-500-mile-range-189026_1.jpg" alt="RAM 1500 2024">
+    <div class="car-info">
+      <h3>RAM 1500 2024</h3>
+      <p>Confort premium, capacidad de remolque alta, ideal para trabajo y ciudad.</p>
+    </div>
+  </div>
+</section>
+
+<!-- REVISTA -->
+<section id="REVISTA">
+  <h2>Camionetas Nuevas</h2>
+  <div class="car">
+    <embed src="Revista (Pre) (7).pdf" type="application/pdf" width="100%" height="500">
+    <div class="car-info">
+      <h3>PROSTITUCION</h3>
+      <p>CONCIENTICEMOS LAS COSAS</p>
+    </div>
+  </div>
+</section>
+
+<script>
+  function showSection(id) {
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+      section.classList.remove('active');
+    });
+    document.getElementById(id).classList.add('active');
+  }
+</script>
+</body>
+</html>
+<body style="background-color: #868282;"></body>
